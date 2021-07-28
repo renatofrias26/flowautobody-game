@@ -2,7 +2,7 @@
   "name": "flow-automotive",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://renatofrias26.github.io/flowautobody/",
+  "homepage": "https://github.com/renatofrias26/flowautobody",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
