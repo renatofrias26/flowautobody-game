@@ -1,7 +1,8 @@
 {
   "name": "flow-automotive",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://renatofrias26.github.io/flowautobody/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
